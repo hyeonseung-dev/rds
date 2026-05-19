@@ -1,11 +1,9 @@
 package com.example.rds.service;
 
-import java.util.UUID;
-
-import org.apache.catalina.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.example.rds.common.exception.MemberNotFoundException;
 import com.example.rds.dto.RequestMember;
 import com.example.rds.dto.ResponseGetMember;
 import com.example.rds.entity.Member;
@@ -28,7 +26,7 @@ public class MemberService {
 	public ResponseGetMember getMember(Long id) {
 
 		Member member = memberRepository.findById(id).orElseThrow(
-			() -> new IllegalStateException("존재하지 않는 멤버입니다.")
+			() -> new MemberNotFoundException("존재하지 않는 멤버입니다.")
 		);
 
 		return new ResponseGetMember(member.getName(),member.getAge(),member.getMbti());
