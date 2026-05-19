@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.rds.dto.RequestMember;
+import com.example.rds.dto.ResponseGetMember;
 import com.example.rds.entity.Member;
 import com.example.rds.repository.MemberRepository;
 
@@ -22,5 +23,14 @@ public class MemberService {
 	public void save(RequestMember requestMember) {
 		Member member = new Member(requestMember.getName(),requestMember.getAge(),requestMember.getMbti());
 		memberRepository.save(member);
+	}
+
+	public ResponseGetMember getMember(Long id) {
+
+		Member member = memberRepository.findById(id).orElseThrow(
+			() -> new IllegalStateException("존재하지 않는 멤버입니다.")
+		);
+
+		return new ResponseGetMember(member.getName(),member.getAge(),member.getMbti());
 	}
 }
