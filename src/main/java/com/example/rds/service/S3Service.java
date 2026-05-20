@@ -5,6 +5,7 @@ import lombok.RequiredArgsConstructor;
 import software.amazon.awssdk.services.s3.presigner.S3Presigner;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
@@ -19,6 +20,7 @@ import com.example.rds.common.exception.MemberNotFoundException;
 import com.example.rds.entity.Member;
 import com.example.rds.repository.MemberRepository;
 
+@Profile("prod")
 @Service
 @RequiredArgsConstructor
 @Transactional(readOnly = true)

@@ -1,6 +1,8 @@
 package com.example.rds.controller;
 
 import lombok.RequiredArgsConstructor;
+
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +18,7 @@ import com.example.rds.dto.FileDownloadUrlResponse;
 import com.example.rds.dto.FileUploadResponse;
 import com.example.rds.service.S3Service;
 
+@Profile("prod")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/members")
