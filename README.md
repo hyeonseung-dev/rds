@@ -31,9 +31,9 @@ http://43.201.70.91:8080/actuator/info
 ## 접근 성공 스크린샷
 
 - 이미지 등록
-  <img width="717" height="479" alt="image" src="https://github.com/user-attachments/assets/51a060aa-6cae-4147-a190-b7e61c288223" />
+- <img width="717" height="479" alt="image" src="https://github.com/user-attachments/assets/51a060aa-6cae-4147-a190-b7e61c288223" />
 - 이미지 다운
-  <img width="718" height="482" alt="image" src="https://github.com/user-attachments/assets/642545d9-40b8-47c5-b12b-9b85f454d55b" />
+- <img width="718" height="482" alt="image" src="https://github.com/user-attachments/assets/642545d9-40b8-47c5-b12b-9b85f454d55b" />
 
 - 이미지 링크 화면
-  <img width="500" height="471" alt="image" src="https://github.com/user-attachments/assets/03270346-ff93-4d95-bfc0-59cb8208019f" />
+- <img width="500" height="471" alt="image" src="https://github.com/user-attachments/assets/03270346-ff93-4d95-bfc0-59cb8208019f" />
