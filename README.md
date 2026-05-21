@@ -32,6 +32,7 @@ http://43.201.70.91:8080/actuator/info
 
 - 이미지 등록
  <img width="717" height="479" alt="image" src="https://github.com/user-attachments/assets/51a060aa-6cae-4147-a190-b7e61c288223" />
+ 
 - 이미지 다운
  <img width="718" height="482" alt="image" src="https://github.com/user-attachments/assets/642545d9-40b8-47c5-b12b-9b85f454d55b" />
 
