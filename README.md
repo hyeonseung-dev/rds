@@ -44,6 +44,13 @@ http://43.201.70.91:8080/actuator/info
 
 <img width="1331" height="616" alt="image" src="https://github.com/user-attachments/assets/a574f7e3-aba9-4d00-aed0-69510188c917" />
 
+# 검증
+- 코드 수정 후 push, ec2 자동반영 확인
+<img width="1321" height="244" alt="image" src="https://github.com/user-attachments/assets/6ebd0116-5d52-425b-96c4-94045d58f593" />
+
 # EC2 터미널 이미지
-<img width="1351" height="42" alt="image" src="https://github.com/user-attachments/assets/aad11944-d7e9-4bd3-9252-cf97b91385a8" />
+- 테스트 API ec2 반영 검증 포함 
+<img width="1429" height="82" alt="image" src="https://github.com/user-attachments/assets/d2bcc11a-2b9a-48a7-87b0-18d0dc149224" />
+
+
 
