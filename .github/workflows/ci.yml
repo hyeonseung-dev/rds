@@ -39,6 +39,10 @@ jobs:
 
       - name: Run tests
         run: ./gradlew test -Dspring.profiles.active=local
+        env:
+          AWS_ACCESS_KEY_ID: test
+          AWS_SECRET_ACCESS_KEY: test
+          AWS_REGION: ap-northeast-2
 
       - name: Build JAR
         run: ./gradlew bootJar
